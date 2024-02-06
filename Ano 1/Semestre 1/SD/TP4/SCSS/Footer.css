@@ -1,0 +1,109 @@
+button {
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #214885;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  list-style: none;
+}
+.footer h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.footer-bottom {
+  display: inline-block;
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+}
+
+.part-1 {
+  margin-right: 60px;
+}
+
+.part-2 {
+  margin-right: 60px;
+}
+
+.social-midia {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.social {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.text-input {
+  background-color: transparent;
+  border-color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+}
+
+.button-ok {
+  background-color: #1BA7CB;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+.button-ok:hover {
+  background-color: #214885;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  height: 5vh;
+  width: 15vh;
+  font-weight: 900;
+}
+
+.widgets {
+  margin-top: 50px;
+}
+
+.logo1 {
+  width: 100px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.logo2 {
+  width: 200px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.logo3 {
+  width: 120px;
+  height: 80px;
+  margin-right: 20px;
+}/*# sourceMappingURL=Footer.css.map */
+
+@media only screen and (max-width: 800px) {
+.footer-top{
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 1rem;
+}
+.footer-top > div {
+  margin: 0;
+  align-items: center;
+  text-align: center;
+
+}
+}/*# sourceMappingURL=IndexStyle.css.map */

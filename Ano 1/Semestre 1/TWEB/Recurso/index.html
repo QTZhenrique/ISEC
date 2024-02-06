@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mouse Over with querySelector</title>
+ 
+</head>
+<body>
+
+    <div>
+        <p>Top 10<span> Most </span><span>Valuable Global Brands</span> 2023</p>
+        <ul>
+            <li>Apple: <span>Dinheiro 1</span></li>
+            <li>Google: <span>Dinheiro 2</span></li>
+            <li>Microsoft: <span>Dinheiro 3</span></li>
+            <li>Amazon: <span>Dinheiro 4</span></li>
+        </ul>
+    </div>
+
+    <div id="layout">
+        <div id="b1">item 1</div>
+        <div id="b2">item 3</div>
+        <div id="b3">item 2</div>
+        <div id="b4">item 4</div>
+    </div>
+
+    <div id="d1">Clique!</div>
+    <div>Fico na mesma!</div>
+    <div id="d2">Vou ter o conteudo alterado</div>
+
+    <script>
+        var first = document.getElementById("d1");
+        var second = document.getElementById("d2");
+
+        first.addEventListener("click", function(){
+            second.textContent = "Novo conteudo";
+            second.style.color = "red";
+            second.style.fontSize = "1.5em";
+        })
+    </script>
+</body>
+</html>

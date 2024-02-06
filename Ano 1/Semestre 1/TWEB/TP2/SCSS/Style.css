@@ -1,0 +1,256 @@
+@import "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;700&display=swap";
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+}
+
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+}
+
+a {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+}
+
+li {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+}
+
+input {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+}
+
+button {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+}
+
+.Part1 {
+  width: 100%;
+  max-height: 90px;
+  height: -moz-max-content;
+  height: max-content;
+  background-image: url(/img/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 900px;
+  z-index: -2;
+}
+
+.servico {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+}
+.servico h1 {
+  color: #1870BA;
+  font-size: 40px;
+}
+.servico li {
+  color: gray;
+}
+
+.servico-top {
+  padding-top: 100px;
+}
+
+.servico-middle {
+  display: flex;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.servico-bottom-left {
+  text-align: left;
+  line-height: 2;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 50%;
+  color: gray;
+  padding-left: 200px;
+}
+
+.servico-bottom-right {
+  text-align: left;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 200px;
+}
+
+.button-learn {
+  background-color: white;
+  color: #1870BA;
+  border-radius: 5px;
+  border-color: #1870BA;
+  height: 5vh;
+  width: 15vh;
+  font-weight: 900;
+}
+
+.icon::before {
+  background-color: #1870BA;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 150px;
+  top: -0.4em;
+  right: 0.5em;
+  margin-left: -50%;
+}
+.icon::after {
+  background-color: #1870BA;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 150px;
+  top: -0.4em;
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.defendemos {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  background-image: url(/img/children.png);
+}
+
+.defendemos-text {
+  color: white;
+  padding-top: 50px;
+}
+.defendemos-text h1 {
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+.defendemos-text p {
+  padding-bottom: 40px;
+}
+.defendemos-text .button-learn {
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  border-color: #1870BA;
+  height: 5vh;
+  width: 15vh;
+  font-weight: 900;
+}
+
+.middle {
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.middle h1 {
+  color: #1870BA;
+  font-size: 25px;
+  justify-content: left;
+}
+.middle .button-learn {
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  border-color: black;
+  height: 5vh;
+  width: 15vh;
+  font-weight: 900;
+}
+
+.donate {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: left;
+  margin: 40px;
+  line-height: 1.5;
+}
+.donate p {
+  width: 100%;
+  justify-content: left;
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.voluntario {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: left;
+  margin: 40px;
+  line-height: 1.5;
+}
+.voluntario p {
+  width: 100%;
+  justify-content: left;
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.emprego {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: left;
+  margin: 40px;
+  line-height: 1.5;
+}
+.emprego p {
+  width: 100%;
+  justify-content: left;
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contador {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-image: url(/img/study.png);
+  height: 400px;
+}
+
+.count {
+  margin: 60px;
+}
+.count h1 {
+  color: white;
+  padding-top: 60px;
+}
+.count p {
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: rgba(255, 255, 255, 0.389);
+}/*# sourceMappingURL=Style.css.map */

@@ -1,0 +1,200 @@
+p
+{
+    text-align: center;
+}
+
+h1,h2,h2
+{
+    color: blue;
+}
+
+/*Seletor de elemento - Pouco especificos*/
+p{color:red};
+
+/*Elementos agrupados*/
+h1,h2{color:blue};
+
+/*Seletor Universal*/
+*{color:aqua};
+
+/*Seletor de contexto - devem ser separados por espaços em branco*/
+ul li em{color:orange};
+
+/*Seletor de contexto Descendentes diretos - > */
+p > span{color:black};
+
+/*Seletor de contexto Elemento imediatamente seguinte ao elemento que define - + */
+h1 + p{color:red};
+
+/*Seletor de contexto Todos os elementos procedidos - ~ */
+h1 ~ p{color:aqua};
+
+/*Seletor de ID - # */
+#p1{color:gray};
+
+/*Seletor de classe - .*/
+.opc{color:pink};
+
+/*Seletor de atributo - [] */
+[id]{color: blanchedalmond;}
+
+/*Seletor de atributo com elemento - [] */
+p[id]{color: blanchedalmond;}
+
+/*Seletor de atributo cujo assume um valor especifico - [""] */
+p[id = "lista"]{color: blanchedalmond;}
+
+/*Seletor de atributo cujo tenha uma expressão isolada ou inserida - *[""] */
+p[id *= "paragrafo"]{color: blanchedalmond;}
+
+/*Seletor de atributo cujo inicia pela expressão - ^[""] */
+p[id ^= "paragrafo"]{color: blanchedalmond;}
+
+/*Seletor de atributo cujo termina pela expressão - $[""] */
+p[id $= "paragrafo"]{color: blanchedalmond;}
+
+
+/*Seletor de pseudo-class - : */
+
+p:link{color: red;}
+p:visited{color: red;}
+p:hover{color: red;}
+p:active{color: red;}
+p:focus{color: red;}
+p:first-child{color: red;}
+p:last-child{color: red;}
+li:nth-child(2){color: red;}
+li:first-of-type, li:last-of-type, :nth-of-type() {color: red;}
+
+/*Seletor de pseudo-class em formularios - : */
+
+input:checked{color: red;}
+input:disabled{color: red;}
+input:enabled{color: red;}
+input:focus{color: red;}
+input:invalid{color: red;}
+input:optional{color: red;}
+input:required{color: red;}
+
+
+/*Seletor de pseudo-elementos - : */
+
+::first-line{color: blue;}
+::first-letter{color: blue;}
+::before{color: blue;}
+::after{color: blue;}
+::selection{color: blue;}
+
+/* Sempre prevalece a ultima definição */
+/* <style><link> prevalece o link */
+/* <link><style> prevalece o style */
+
+/* O seletor mais especifico sempre tem mais peso
+ID selector
+Class,attribute selector
+Contextual selector
+Individual selector
+*/
+
+/* Unidades relativas 
+em - relativo ao font-size da fonte
+rem - relativo ao font-size da fonte do root
+% - relativo as dimensões do elemento pai
+
+--MOBILE--
+
+vmin - 1% da menor dimensão do viewport
+vmax - 1% da maior dimensão do viewport
+vw - 1% da largura do viewport
+vh - 1% da altura do viewport
+*/
+
+/* Box Model
+Content
+Padding
+border
+margin
+
+Box sizing
+Content box - width e height
+Border box - content + area + border
+*/
+
+/* Display
+block - define como um block element(ignora a altura,largura,margens superior e inferior)
+inline - define como um inline element
+inline-block - preserva o comportamento inline com a possibilidade de alterar a altura e largura
+none - fica invisivel e deixa ter influencia no layout
+flex - cria um container flexivel.
+grid - cria uma grid container
+
+--FlexBox--
+flex-direction - direção do eixo principal
+flex-wrap - adapta a dimensão ou cria multipla linhas para conter os items
+align-items - define o alinhamento dos items no eixo y
+align-content - define o alinhamento dos items no eixo y quando existe mais que uma linha
+justify-content - alinhamento no eixo x
+
+-flex items-
+order - permite reordenar os item
+flex-grow - quanto um objeto pode crescer
+flex-shrink - quanto um objeto pode diminuir
+flex-basis - dimensão inicial
+
+--Grid Layout--
+line - linhas horizontais e verticais
+cell - menor unidade da grid
+area - area retangular
+grid-template-column e grid-template-row - dimensão das colunas e linhas
+grid-row/column start e end
+DEVE SER USADO PX e FR
+
+--Position--
+static - segue a ordem normal do documento
+relative - posição original em relação ao documento
+absolute - são removidos do fluxo e posicionado em relação ao container
+fixed - posicionados em relação a janela de visualização
+inherit - herda a posição do elemento pai
+sticky - relativos ao container mais proximo
+
+--Font--
+family
+size
+weight
+style
+variant
+line-height
+text-indent
+text-align
+text-decoration
+text-transform
+letter/word-spacing
+
+--SASS--
+numbers
+strings
+colors
+null
+lists
+maps
+
+@mixin - Permitem definir blocos de estilos reutilizáveis, facilitando a aplicação consistente de conjuntos de propriedades em diferentes partes do código.
+
+@mixin borda-arredondada {
+   border-radius: 5px;
+}
+.elemento {
+   @include borda-arredondada;
+}
+
+@function - Introduz funções que podem ser usadas para realizar operações e cálculos dentro do código Sass.
+
+@function aumentar-tamanho($tamanho, $percentual) {
+   @return $tamanho + ($tamanho * $percentual / 100);
+}
+.elemento {
+   font-size: aumentar-tamanho(16px, 10%);
+}
+
+
+*/

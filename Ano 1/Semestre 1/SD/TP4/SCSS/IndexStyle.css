@@ -1,0 +1,363 @@
+@import "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;700&display=swap";
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+  text-decoration: unset;
+}
+
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+  text-decoration: unset;
+}
+
+a {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+  text-decoration: unset;
+}
+a:visited {
+  color: white !important;
+}
+a:focus {
+  color: white !important;
+}
+a:hover {
+  color: white !important;
+}
+a:active {
+  color: white !important;
+}
+
+li {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+  text-decoration: unset;
+}
+
+input {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+  text-decoration: unset;
+}
+
+button {
+  font-family: "IBM Plex Sans", sans-serif;
+  list-style: none;
+  text-decoration: unset;
+}
+
+.servico {
+  width: 100%;
+  background-color: white;display: flex;flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 0;
+}
+.servico h1 {
+  color: #1870ba;
+  font-size: 40px;
+}
+.servico li {
+  color: gray;
+}
+
+.servico-top {
+  /* padding-top: 100px; */
+}
+
+.servico-middle {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+  grid-gap: 5rem;
+}
+
+.servico-bottom-left {
+  text-align: left;
+  line-height: 1.5rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 35%;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+}
+
+.servico-bottom-right {
+  text-align: left;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.button-learn {
+  background-color: white;
+  color: #1870ba;
+  border-radius: 5px;
+  border-color: #1870ba;
+  height: 5vh;
+  width: 15vh;
+  font-weight: 900;
+}
+
+.icon::before {
+  background-color: #1870ba;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 150px;
+  top: -0.4em;
+  right: 0.5em;
+  margin-left: -50%;
+}
+.icon::after {
+  background-color: #1870ba;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 150px;
+  top: -0.4em;
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.defendemos {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  background-image: url(/img/children.png);
+}
+
+.defendemos-text {
+  color: white;
+  padding-top: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.defendemos-text h1 {
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+.defendemos-text p {
+  padding-bottom: 40px;
+}
+.defendemos-text .button-learn {
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  border-color: #1870ba;
+  height: 5vh;
+  width: 15vh;
+  font-weight: 900;
+}
+
+.middle {
+  background-color: white;
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.middle h1 {
+  color: #1870ba;
+  font-size: 25px;
+  justify-content: left;
+}
+.middle .button-learn {
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  border-color: black;
+  height: 5vh;
+  width: 15vh;
+  font-weight: 900;
+}
+
+.donate {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: left;
+  margin: 40px;
+  line-height: 1.5;
+}
+.donate p {
+  width: 100%;
+  justify-content: left;
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.donate:hover > * .donative-img {
+  background-color: #1870ba;
+}
+
+.voluntario {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: left;
+  margin: 40px;
+  line-height: 1.5;
+}
+.voluntario p {
+  width: 100%;
+  justify-content: left;
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.voluntario:hover > * .volunteer-img {
+  background-color: #1870ba;
+}
+
+.emprego {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: left;
+  margin: 40px;
+  line-height: 1.5;
+}
+.emprego p {
+  width: 100%;
+  justify-content: left;
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.emprego:hover > * .employer-img {
+  background-color: #1870ba;
+}
+
+.donative-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.volunteer-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.employer-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  line-height: -20px;
+}
+
+.contador {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-image: url(/img/study.png);
+  min-height: 400px;
+  flex-direction: row;
+  padding: 5rem;
+  grid-gap: 2rem;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  text-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.count h1 {
+  color: white;
+  /* padding-top: 60px; */
+}
+.count p {
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: rgba(255, 255, 255, 0.389);
+}
+
+.up_foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/Imagem_Homepage-JRS_03.jpg);
+  height: 400px;
+  color: white;
+  grid-gap: 3.5rem;
+}
+
+.up_foot2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-gap: 1rem;
+}
+
+.logos {
+  margin-left: 20px;
+  height: 50px;
+  display: flex;
+  margin-top: 50px;
+}
+.pagamentos-unico{display: flex;flex-direction: row;}
+@media only screen and (max-width: 1500px) {
+  .hamburger {
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+  }
+  .header-middle {
+    display: none;
+  }
+}/*# sourceMappingURL=IndexStyle.css.map */
+@media only screen and (max-width: 800px) {
+  .servico-bottom-left{
+    line-height: 1.25rem;
+    width: 55%;
+  }
+  .servico-middle{flex-direction: column;}
+  .button-learn{
+    margin: auto;
+  }
+  .contador{
+    flex-direction: column;
+  }
+  .middle{
+    flex-direction: column;
+  }
+  .middle > div {
+    width:45% ;
+  }
+}/*# sourceMappingURL=IndexStyle.css.map */

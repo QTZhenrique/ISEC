@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,">
+    <title>Document</title>
+</head>
+
+<body style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-size: 30px; font-weight: bold;">Your Stuff, anywhere</p>
+
+    <form action="alunos.isec@gmail.com" method="post">
+        
+        <fieldset style="width: 230px; height: 400px;">
+            <legend>My profile</legend>
+            <input type="text" size="30" placeholder="First Name" name="c1" required autofocus maxlength="20">
+            <br><br>
+    
+            <input type="text" size="30" placeholder="Last Name" name="c2" required>
+            <br><br>
+    
+            <input type="text" size="30" placeholder="Email" name="c3" required>
+            <br><br>
+    
+            <input type="password" size="30" placeholder="Password" name="c4" required pattern="[A-Za-z]{3}[0-9]{3}">
+            <br><br>
+    
+            <textarea style="resize: none; width: 230px; height: 200px;" name="c5" placeholder="Enter text here...(Optional)" maxlength="150"></textarea>
+        </fieldset>
+ 
+        <br><br>
+        <select name="Plano-Pagamento" style="width: 265px; text-align: center;">
+            <option value="1">Base Plan</option>
+            <option value="2">Intermediate Plan</option>
+            <option value="3">Premium Plan</option>
+        </select>
+        <br><br>
+
+        <input type="checkbox" size="30" name="c4" required> I Agree to DropBox terms
+        <br><br>
+
+        <input type="submit" value="Sing-up">
+
+    </form>
+</body>
+
+</html>

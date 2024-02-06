@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;700&display=swap');
+
+h1,p,a,li,input,button
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+
+
+.Texto1
+{
+    width: 50%;
+    text-align: center;
+}
+
+.Texto1 h1
+{
+    font-size: 65px;
+    margin-top: 150px;
+    color: white;
+    min-width: 50%;
+}
+
+.Texto1 p
+{
+    font-size: 22px;
+    color: white;
+}
+
+.Texto1
+{
+    text-align: center;
+}
+
+.Part1
+{
+    width: 100%;
+    max-height: 750px;
+    height: max-content;
+    position: absolute;
+    background-image: url(/IMG/Calvo2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+.learn-btn {
+    padding: 10px 20px;
+    background-color: #70A035;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    width: 25vh;
+    white-space: nowrap;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+.desfoque
+{
+    width: 1000px;
+    height: 900px;
+    margin-left: -1000px;
+    position: fixed;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    
+}
+
+.background1
+{
+    background-color: #004471;
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 300px;
+}
+
+  

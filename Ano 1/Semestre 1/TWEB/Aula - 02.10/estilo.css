@@ -1,0 +1,35 @@
+h1
+{
+    color: red;
+    font-size: 30px;
+}
+
+div#nav
+{
+    background-color: #ABE385;
+}
+
+div#bar2
+{
+    background-color: aqua;
+}
+
+div#header
+{
+    background-color: #ABE385;
+}
+
+div#section
+{
+    background-color: #FF6D6D;
+}
+
+div#article
+{
+    background-color: #158AC4;
+}
+
+div#footer
+{
+    background-color: #B3B3B3;
+}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+.menu-bar {
+  background-color: black;
+  width: 40vh;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: none;
+  position: absolute;
+  overflow-y: auto;
+  top:80px;
+  right: 10px;
+}
+.menu-bar .menu {
+  width: 100%;
+  background-color: white;
+}
+.menu-bar .menu .item {
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.menu-bar .menu .item a {
+  font-size: 14px;
+  display: block;
+  padding: 5px 30px;
+  line-height: 60px;  color: #428bca !important;
+
+}
+.menu-bar .menu .item a:hover > i {
+  color: #428bca;
+}
+.menu-bar .menu .item i {
+  margin-right: 15px;
+}
+.menu-bar .menu .item i::after {
+  content: "▼";
+  font-size: 10px;
+  margin-left: 3px;
+}
+.menu-bar .menu .item .sub-menu a {
+  display: inline-block;
+  flex-direction: column;
+  padding-left: 80px;
+  font-size: 12px;
+}
+
+.Sitem {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+  width: 100%;
+}/*# sourceMappingURL=Menubar.css.map */

@@ -1,0 +1,52 @@
+$color_1: #428bca;
+$background-color_1: black;
+
+.menu-bar {
+	background-color: $background-color_1;
+	width: 40vh;
+	height: fit-content;
+	margin-top: 250px;
+	display: none;
+	position: fixed;
+	overflow-y: auto;
+	.menu {
+		width: 100%;
+		.item {
+			cursor: pointer;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+			margin-left: 20px;
+			margin-right: 20px;
+			a {
+				font-size: 14px;
+				display: block;
+				padding: 5px 30px;
+				line-height: 60px;
+				&:hover {
+					>i {
+						color: $color_1;
+					}
+				}
+			}
+			i {
+				margin-right: 15px;
+				&::after {
+					content: "\25BC";
+					font-size: 10px;
+					margin-left: 3px;
+				}
+			}
+			.sub-menu {
+				a {
+					display: inline-block;
+					flex-direction: column;
+					padding-left: 80px;
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}
+.Sitem {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+	width: 100%;
+}

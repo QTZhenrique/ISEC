@@ -1,0 +1,338 @@
+$color_1: white;
+$color_2: #1870ba;
+$color_3: gray;
+$color_4: black;
+$font-family_1: sans-serif;
+$font-family_2: "IBM Plex Sans", sans-serif;
+$background-color_1: white;
+$background-color_2: #1870ba;
+$background-color_3: transparent;
+$border-color_1: #1870ba;
+$border-color_2: black;
+$border-color_3: rgba(255, 255, 255, 0.389);
+
+@import "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;700&display=swap";
+* {
+	box-sizing: border-box;
+	font-family: $font-family_1;
+}
+h1 {
+	font-family: $font-family_2;
+	list-style: none;
+	text-decoration: unset;
+}
+p {
+	font-family: $font-family_2;
+	list-style: none;
+	text-decoration: unset;
+}
+a {
+	font-family: $font-family_2;
+	list-style: none;
+	text-decoration: unset;
+	&:visited {
+		color: $color_1 !important;
+	}
+	&:focus {
+		color: $color_1 !important;
+	}
+	&:hover {
+		color: $color_1 !important;
+	}
+	&:active {
+		color: $color_1 !important;
+	}
+}
+li {
+	font-family: $font-family_2;
+	list-style: none;
+	text-decoration: unset;
+}
+input {
+	font-family: $font-family_2;
+	list-style: none;
+	text-decoration: unset;
+}
+button {
+	font-family: $font-family_2;
+	list-style: none;
+	text-decoration: unset;
+}
+
+.servico {
+	width: 100%;
+	height: 500px;
+	background-color: $background-color_1;
+	justify-content: center;
+	text-align: center;
+	h1 {
+		color: $color_2;
+		font-size: 40px;
+	}
+	li {
+		color: $color_3;
+	}
+}
+.servico-top {
+	padding-top: 100px;
+}
+.servico-middle {
+	display: flex;
+	height: auto;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+.servico-bottom-left {
+	text-align: left;
+	line-height: 2;
+	height: fit-content;
+	width: 50%;
+	color: $color_3;
+	padding-left: 200px;
+}
+.servico-bottom-right {
+	text-align: left;
+	height: fit-content;
+	margin-left: 200px;
+}
+.button-learn {
+	background-color: $background-color_1;
+	color: $color_2;
+	border-radius: 5px;
+	border-color: $border-color_1;
+	height: 5vh;
+	width: 15vh;
+	font-weight: 900;
+}
+.icon {
+	&::before {
+		background-color: $background-color_2;
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: relative;
+		vertical-align: middle;
+		width: 150px;
+		top: -0.4em;
+		right: 0.5em;
+		margin-left: -50%;
+	}
+	&::after {
+		background-color: $background-color_2;
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: relative;
+		vertical-align: middle;
+		width: 150px;
+		top: -0.4em;
+		left: 0.5em;
+		margin-right: -50%;
+	}
+}
+.defendemos {
+	width: 100%;
+	height: 300px;
+	justify-content: center;
+	text-align: center;
+	background-image: url(/img/children.png);
+}
+.defendemos-text {
+	color: $color_1;
+	padding-top: 50px;
+	h1 {
+		font-size: 50px;
+		padding-bottom: 40px;
+	}
+	p {
+		padding-bottom: 40px;
+	}
+	.button-learn {
+		background-color: $background-color_3;
+		color: $color_1;
+		border-radius: 5px;
+		border-color: $border-color_1;
+		height: 5vh;
+		width: 15vh;
+		font-weight: 900;
+	}
+}
+.middle {
+	background-color: $background-color_1;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	h1 {
+		color: $color_2;
+		font-size: 25px;
+		justify-content: left;
+	}
+	.button-learn {
+		background-color: $background-color_3;
+		color: $color_4;
+		border-radius: 5px;
+		border-color: $border-color_2;
+		height: 5vh;
+		width: 15vh;
+		font-weight: 900;
+	}
+}
+.donate {
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	text-align: left;
+	margin: 40px;
+	line-height: 1.5;
+	p {
+		width: 100%;
+		justify-content: left;
+		color: $color_3;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	&:hover {
+		>* {
+			.donative-img {
+				background-color: $background-color_2;
+			}
+		}
+	}
+}
+
+.voluntario {
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	text-align: left;
+	margin: 40px;
+	line-height: 1.5;
+	p {
+		width: 100%;
+		justify-content: left;
+		color: $color_3;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	&:hover {
+		>* {
+			.volunteer-img {
+				background-color: $background-color_2;
+			}
+		}
+	}
+}
+.emprego {
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	text-align: left;
+	margin: 40px;
+	line-height: 1.5;
+	p {
+		width: 100%;
+		justify-content: left;
+		color: $color_3;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	&:hover {
+		>* {
+			.employer-img {
+				background-color: $background-color_2;
+			}
+		}
+	}
+}
+
+.donative-img
+{
+	width: 40px; 
+	height: 40px; 
+	margin-right: 10px;
+}
+
+.volunteer-img
+{
+	width: 40px; 
+	height: 40px; 
+	margin-right: 10px;
+}
+
+.employer-img
+{
+	width: 50px; 
+	height: 50px; 
+	margin-right: 5px;
+	line-height: -20px;
+}
+
+.contador {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	background-image: url(/img/study.png);
+	height: 400px;
+}
+.count {
+	margin: 60px;
+	h1 {
+		color: $color_1;
+		padding-top: 60px;
+	}
+	p {
+		color: $color_1;
+		width: fit-content;
+		border: solid 2px;
+		border-radius: 5px;
+		border-color: $border-color_3;
+	}
+}
+.up_foot {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(/img/Imagem_Homepage-JRS_03.jpg);
+	height: 400px;
+	color: $color_1;
+	grid-gap: 3.5rem;
+}
+.up_foot2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	grid-gap: 1rem;
+}
+.logos {
+	margin-left: 20px;
+	height: 50px;
+	display: flex;
+	margin-top: 50px;
+}
+
+@media only screen and (max-width:1500px){ 
+ 
+	.hamburger
+	{
+		display: flex;
+		margin-right: 150px;
+	}
+
+	.header-middle
+	{
+		display: none;
+	}
+
+}

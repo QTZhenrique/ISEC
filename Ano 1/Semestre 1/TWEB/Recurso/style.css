@@ -1,0 +1,15 @@
+li:nth-child(3).span{color: orange;}
+li:nth-child(3) span{color: orange;}
+li:nth-child(3) li{color: blue;}
+span+span{color: red;}
+span:first-of-type{color: orange;}
+li:nth-child(2){color: green;}
+
+p{color: red;}
+p span{color: black;}
+
+li:hover{color: blue;}
+
+#layout{display: flex;}
+
+#b1,#b2,#b3,#b4{width: 100px; background-color: lightcoral; margin: 10px; padding: 10px; border-radius: 5px; text-align: center; border-color: black;}

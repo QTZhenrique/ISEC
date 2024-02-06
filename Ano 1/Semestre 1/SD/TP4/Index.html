@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width," />
+    <title>
+      JRS Portugal - Serviço Jesuita aos refugiados - Serviço Jesuita aos
+      Refugiados
+    </title>
+    
+    <link rel="stylesheet" href="SCSS/Footer.css">
+    <link rel="stylesheet" href="SCSS/Header.css">
+    <link rel="stylesheet" href="SCSS/Menu.css">
+    <link rel="stylesheet" href="SCSS/IndexStyle.css">
+    <link rel="stylesheet" href="SCSS/Popup.css">
+    <link rel="stylesheet" href="SCSS/slideshow.css">
+    <link rel="stylesheet" href="SCSS/media.css">
+    <link rel="stylesheet" href="SCSS/Menubar.css">
+  </head>
+
+  <body class="Part1">
+    <div id="slideshow-container">
+      <div class="slide fade">
+        <img src="/img/background.png" alt="Imagem 1">
+      </div>
+      <div class="slide fade">
+        <img src="/img/Banner-Site-cortado.jpg" alt="Imagem 2">
+      </div>
+      <div class="slide fade">
+        <img src="/img/livro-branco-banner.png" alt="Imagem 3">
+      </div>
+      <div class="slide_show_buttons left" onclick="plusSlides(-1)"> 
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+        </div>
+      <div class="slide_show_buttons right" onclick="plusSlides(1)">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+        </div>
+      <script src="/JS/script.js"></script>
+    </div> 
+
+    <header class="header">
+      <div class="header-left">
+        <img class="logo" src="img/logo.png" alt="" />
+      </div>
+      <div class="header-middle">
+        <li id="text-1" class="text-header">
+          <a href="">Sobre nós</a>
+          <ul class="drop-sobre">
+            <li>Quem somos</li>
+            <li>JRS no mundo</li>
+            <li>Publicações</li>
+            <li>Parceiros</li>
+            <li>Testemunhos</li>
+            <li>Colabore conosco</li>
+          </ul>
+        </li>
+        <li id="text-2" class="text-header">
+          <a href="">Áreas de Intervensão</a>
+          <ul class="drop-area">
+            <li>Apoio Social</li>
+            <li>Apoio á Empregabilidade</li>
+            <li>Academia</li>
+            <li>Acolhimento</li>
+            <li>Saúde Mental</li>
+            <li>Apoio a Habitação</li>
+            <li>Intérpretes e Mediação Cultural</li>
+            <li>Comunidades de Hospitalidade</li>
+            <li>Apoio Jurídico</li>
+          </ul>
+        </li>
+        <li id="text-3" class="text-header">
+          <a href="">O que fazemos</a>
+          <ul class="drop-fazemos">
+            <li>Plataforma de Apoio aos Refugiados</li>
+            <li>Projetos</li>
+            <li>Campanhas</li>
+            <li>Noticias</li>
+          </ul>
+        </li>
+        <li id="text-4" class="text-header">
+          <a href="">O que defendemos</a>
+          <ul class="drop-defendemos">
+            <li>Documentos</li>
+            <li>Comunicados</li>
+          </ul>
+        </li>
+        <a href="" class="text-header">Contactos</a>
+        <li id="text-5" class="text-header">
+          <a href="">Apoie-nos</a>
+          <ul class="drop-apoio">
+            <li>IRS</li>
+            <li class="open_popup">Donativos</li>
+            <li>Voluntariado</li>
+            <li>Ofereça um emprego</li>
+            <li>A_Rede</li>
+          </ul>
+        </li>
+      </div>
+      <div class="header-right">
+        <div >
+            <div class="hamburger">
+              <span class="line"></span>
+              <span class="line line2"></span>
+              <span class="line"></span>
+            </div>
+            <div class="menu-bar">
+              <div class="menu">
+                <div class="item">
+                  <a id="item1" class="menu-button" href="#"><i>Sobre nós</i></a>
+                <div id="sitem1" class="sub-menu">
+                  <a href="#" class="Sitem">Quem somos</a>
+                  <a href="#" class="Sitem">JRS no mundo</a>
+                  <a href="#" class="Sitem">Publicações</a>
+                  <a href="#" class="Sitem">Parceiros</a>
+                  <a href="#" class="Sitem">Testemunhos</a>
+                  <a href="#" class="Sitem">Colabore conosco</a>
+                </div>
+                </div>
+                <div class="item">
+                  <a id="item2" class="menu-button" href="#"> <i>Áreas de Intervensão</i></a>
+                  <div id="sitem2" class="sub-menu">
+                    <a href="#" class="Sitem">Apoio Social</a>
+                    <a href="#" class="Sitem">Apoio á Empregabilidade</a>
+                    <a href="#" class="Sitem">Academia</a>
+                    <a href="#" class="Sitem">Acolhimento</a>
+                    <a href="#" class="Sitem">Saúde Mental</a>
+                    <a href="#" class="Sitem">Apoio a Habitação</a>
+                    <a href="#" class="Sitem">Intérpretes e Mediação Cultural</a>
+                    <a href="#" class="Sitem">Comunidades de Hospitalidade</a>
+                    <a href="#" class="Sitem">Apoio Jurídico</a>
+                  </div>
+                </div>
+                <div class="item">
+                  <a id="item3" class="menu-button" href="#"> <i>O que fazemos</i></a>
+                  <div id="sitem3" class="sub-menu">
+                    <a href="#" class="Sitem">Plataforma de Apoio aos Refugiados</a>
+                    <a href="#" class="Sitem">Projetos</a>
+                    <a href="#" class="Sitem">Campanhas</a>
+                    <a href="#" class="Sitem">Notícias</a>
+                  </div>
+                </div>
+                <div class="item">
+                  <a id="item4" class="menu-button" href="#"> <i>O que defendemos</i></a>
+                  <div id="sitem4" class="sub-menu">
+                    <a href="#" class="Sitem">Documentos</a>
+                    <a href="#" class="Sitem">Comunicados</a>
+                  </div>
+                </div>
+                <div class="item"><a href="#"> <i>Contactos</i></a></div>
+                <div class="item">
+                  <a id="item5" class="menu-button" href="#"> <i>Apoie-nos</i></a>
+                  <div id="sitem5" class="sub-menu">
+                    <a href="#" class="Sitem">IRS</a>
+                    <a href="#" class="Sitem open_popup">Donativos</a>
+                    <a href="#" class="Sitem">Voluntariado</a>
+                    <a href="#" class="Sitem">Ofereça um emprego</a>
+                    <a href="#" class="Sitem">A_Rede</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div style="display: inline-block; margin-top: 80px;">
+          <li class="text-header">
+            <a href=""></a>
+            <div class="search_icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M16.6725 16.6412L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </li>
+          <li class="text-header"><a href=""></a>Português</li>
+          <li class="text-header"><a href=""></a>English</li>
+        </div>
+      </div>
+    </header>
+    <div class="servico">
+      <div class="servico-top">
+        <h1>Serviço Jesuíta aos Refugiados</h1>
+      </div>
+      <span class="icon">
+        <img src="/img/icon.png" alt="" />
+      </span>
+      <div class="servico-middle">
+        <div class="servico-bottom-right">
+          <img src="/img/foto2.png" alt="" />
+        </div>
+        <div class="servico-bottom-left">
+          <p>
+            O Serviço Jesuíta aos Refugiados (JRS - Jesuit Refugee Service), é
+            uma organização internacional da Igreja Católica, fundada em 1980,
+            sob responsabilidade da Companhia de Jesus. O JRS tem como missão
+            «Acompanhar, Servir e Defender» os refugiados, deslocados à força e
+            todos os migrantes em situação de particular vulnerabilidade.
+          </p>
+          <button class="button-learn">Saber mais</button>
+        </div>
+      </div>
+    </div>
+    <div class="defendemos">
+      <div class="defendemos-text">
+        <h1>O QUE DEFENDEMOS</h1>
+        <p>Procuramos dar voz a quem não a tem.</p>
+        <button class="button-learn">Saber mais</button>
+      </div>
+    </div>
+    <div class="middle">
+      <div class="donate">
+        <div style="display: flex;">
+          <img class="donative-img" src="img/heart.png" alt="" />
+          <h1>Faça um donativo</h1>
+        </div>
+        <p>Apoie-nos na concretização dos nossos projetos</p>
+        <button class="button-learn">Saber mais</button>
+      </div>
+      <div class="voluntario">
+        <div style="display: flex;">
+          <img class="volunteer-img" src="img/heart.png" alt="" />
+          <h1>Seja Voluntário</h1>
+        </div>      
+        <p>
+          Faça parte da nossa missão e ajude-nos a acompanhar, servir e
+          defender.
+        </p>
+        <button class="button-learn">Saber mais</button>
+      </div>
+      <div class="emprego">
+        <div style="display: flex;">
+          <img class="employer-img" src="img/person.png" alt="" />
+          <h1>Ofereça um Emprego</h1>
+        </div>    
+        <p>Dê uma oportunidade de trabalho aos migrantes formados por nós</p>
+        <button class="button-learn">Saber mais</button>
+      </div>
+    </div>
+
+    <div class="contador">
+      <div class="count">
+        <h1>4,572</h1>
+        <p>Utentes</p>
+      </div>
+      <div class="count">
+        <h1>23,386</h1>
+        <p>Atendimentos</p>
+      </div>
+      <div class="count">
+        <h1>188</h1>
+        <p>Empregos</p>
+      </div>
+      <div class="count">
+        <h1>196</h1>
+        <p>Formandos</p>
+      </div>
+      <div class="count">
+        <h1>537</h1>
+        <p>Pessoas acolhidas</p>
+      </div>
+    </div>
+    <div class="popup_overlay"></div>
+    <div class="popup_menu_donativos">
+      <form id="donationForm" class="popup_content">
+        <div class="popup_header">pronto para mudar o mundo?</div>
+        <div class="donation_type">
+          <div class="donation_unica donation_selected">Donativo Único</div>
+          <div class="donation_mensal">Donativo Mensal</div>
+        </div>
+        <div class="donation_ammount">
+          <div class="donation_ammount_header">Quantia</div>
+          <div class="donation_ammount_content">
+            <option value="20" class="donation_quantity">20€</option>
+            <option value="40" class="donation_quantity">40€</option>
+            <option value="80" class="donation_quantity">80€</option>
+            <div class="donation_quantity">outra quantia</div>
+          </div>
+        </div>
+        <div class="donation_form_container"></div>
+        <div class="check_box_container">
+          <div class="check_box_element">
+            <input
+              class="particular custom_check_box"
+              type="checkbox"
+              name=""
+              id=""
+            />
+            <div>Particular</div>
+          </div>
+          <div class="check_box_element">
+            <input
+              class="empresa custom_check_box"
+              type="checkbox"
+              name=""
+              id=""
+            />
+            <div>Empresa</div>
+          </div>
+        </div>
+        <div class="accept_terms_container">
+          <input class="custom_check_box_"  type="checkbox" name="" id="agree" />
+          <div>Aceito os termos e condições</div>
+        </div>
+        <div class="pagamentos-unico">
+          <div><img src="img/transferir.png" alt="MB" height="50px" width="50px"></div>
+          <img src="img/unnamed.png" alt="mbway" height="50px" width="50px">
+          <img src="img/paypal-logo.png" alt="paypal" height="50px" width="50px">
+          <img src="img/png-transparent-visa-and-mastercard-ads-mastercard-credit-card-american-express-visa-debit-card-mastercard-text-payment-logo-thumbnail.png" alt="credit" height="50px" width="120px">
+        </div>
+
+        <div class="pagamento-mensal" style="display: none;">
+          <img src="img/png-transparent-visa-and-mastercard-ads-mastercard-credit-card-american-express-visa-debit-card-mastercard-text-payment-logo-thumbnail.png" alt="credito" height="50px" width="120px">
+          <img src="img/transferir (1).png" alt="debit" height="50px" width="135px">
+        </div>
+        <button class="donate_button" type="submit">Donate</button>
+      </form>
+    </div>
+    <div class="Contain">
+      <div class="empty_space" style="height: 32px">
+        <span class="empty_space_inner"></span>
+      </div>
+        <h2 class="titulo"> Noticias</h2>
+        <div class="empty_space" style="height: 20px;">
+          <span class="empty_space_inner"></span>
+        </div>
+        <div class="images_not">
+          
+          <div class="grid-item1" id="xd">
+            <a href="https://www.jrsportugal.pt/livro-branco-2023/" title="Livro Branco 2023"></a>
+              <img class="image-render" src="img/1042456_OKY4J01-1-768x316.png">
+              <div class="create_data">
+                <span class="d">18</span>
+                <span class="m">Dezembro</span>
+              </div>
+            </a>
+            <div class="info">
+              <div class="extra">
+                <div class="comment">
+								<i class="ion-chatbox"></i> 
+								0 
+								Comentário(s)
+							  </div>
+              </div>
+              <a href="https://www.jrsportugal.pt/livro-branco-2023/" title="Livro Branco 2023">
+                <h4 class="title">Livro Branco 2023</h4>
+              </a>
+              <p class="short-des">O JRS Portugal tem o prazer de apresentar o Livro Branco 2023. A publicação deste Livro Branco visa sensibilizar os decisores políticos e a Sociedade Civil em geral e...</p>
+              <a href="https://www.jrsportugal.pt/livro-branco-2023/" class="btn-readmore">Ler Mais ...</a>
+            </div>
+          </div>
+
+          <div class="grid-item1" >
+              <a href="https://www.jrsportugal.pt/jrs-portugal-honra-o-dia-internacional-dos-migrantes-com-a-publicacao-da-nova-edicao-do-livro-branco-sobre-os-direitos-das-pessoas-imigrantes-e-refugiadas-em-portugal/" title="JRS Portugal honra o Dia Internacional dos Migrantes com a publicação da nova edição do Livro Branco sobre os direitos das pessoas imigrantes e refugiadas em Portugal"> 
+                <img class="image-render" src="img/1042456_OKY4J01-1-768x316.png">
+                  <div class="create_data">
+                    <span class="d">14</span>
+                    <span class="m">Dezembro</span>
+                  </div>
+              </a>
+              <div class="info">
+                <div class="extra">
+                  <div class="comment">
+                    <i class="ion-chatbox"></i> 
+                    0 
+                    Comentário(s)
+                  </div>
+                </div>
+                <a href="https://www.jrsportugal.pt/jrs-portugal-honra-o-dia-internacional-dos-migrantes-com-a-publicacao-da-nova-edicao-do-livro-branco-sobre-os-direitos-das-pessoas-imigrantes-e-refugiadas-em-portugal/" title="JRS Portugal honra o Dia Internacional dos Migrantes com a publicação da nova edição do Livro Branco sobre os direitos das pessoas imigrantes e refugiadas em Portugal">
+                  <p class="title">JRS Portugal honra o Dia Internacional dos Migrantes com a publicação da nova edição do Livro Branco sobre os direitos das pessoas imigrantes e refugiadas em Portugal</p>
+                </a>
+              </div>
+            </div>
+          <div class="grid-item1">
+            <a href="https://www.jrsportugal.pt/integrarte/" title="IntegrARTE"> 
+              <img class="image-render" src="img/Emprego-Integrarte-5-e1701189491290-768x209.png">
+               <div class="create_data">
+                  <span class="d">22</span>
+                  <span class="m">Novembro</span>
+                </div>
+            </a>
+              <div class="info">
+                <div class="extra">
+                  <div class="comment">
+                    <i class="ion-chatbox"></i> 
+                    0 
+                    Comentário(s)
+                  </div>
+                </div>
+                <a href="https://www.jrsportugal.pt/integrarte/" title="IntegrARTE">
+                  <h4 class="title">IntegrARTE</h4>
+                </a>
+              </div>
+            </div>
+            <div class="grid-item1">
+              <a href="https://www.jrsportugal.pt/comunicado-jrs-portugal-lanca-campanha-para-promover-empregabilidade-de-pessoas-migrantes/" title="Comunicado | JRS Portugal lança campanha para promover empregabilidade de pessoas migrantes"> 
+                <img class="image-render" src="img/JRS_EmpregoRefugiados_Banner1_LesteEuropeu-768x512.png">
+                  <div class="create_data">
+                    <span class="d">09</span>
+                    <span class="m">Outubro</span>
+                    </div>
+              </a>
+              <div class="info">
+                <div class="extra">
+                  <div class="comment">
+                    <i class="ion-chatbox"></i> 
+                    0 
+                    Comentário(s)
+                  </div>
+                </div>
+                <a href="https://www.jrsportugal.pt/comunicado-jrs-portugal-lanca-campanha-para-promover-empregabilidade-de-pessoas-migrantes/" title="Comunicado | JRS Portugal lança campanha para promover empregabilidade de pessoas migrantes">
+                  <h4 class="title">Comunicado | JRS Portugal lança campanha para promover empregabilidade de pessoas migrantes</h4>
+                </a>
+              </div>
+            </div>
+          <div class="grid-item1">
+            <a href="https://www.jrsportugal.pt/fim-cqc/" title="Corações que nunca deixam de Cuidar">
+              <img class="image-render" src="img/Rosa.png">
+                <div class="create_data">
+                 <span class="d">05</span>
+                 <span class="m">Setembro</span>
+                </div>
+            </a>
+              <div class="info">
+                <div class="extra">
+                  <div class="comment">
+                    <i class="ion-chatbox"></i> 
+                    0 
+                    Comentário(s)
+                  </div>
+                </div>
+              <a href="https://www.jrsportugal.pt/fim-cqc/" title="Corações que nunca deixam de Cuidar">
+                <h4 class="title">Corações que nunca deixam de Cuidar</h4>
+              </a>
+            </div>
+          </div>
+          <div class="grid-item1">
+            <a href="https://www.jrsportugal.pt/academia-jrs-no-porto-acolhendo-com-palavras/" title="Academia JRS no Porto | Acolhendo com Palavras">
+              <img class="image-render" src="img/academia_jrs_porto.jpg">
+                <div class="create_data">
+                  <span class="d">29</span>
+                  <span class="m">Agosto</span>
+                </div>
+            </a>
+            <div class="info">
+              <div class="extra">
+                <div class="comment">
+                  <i class="ion-chatbox"></i> 
+                  0 
+                  Comentário(s)
+                </div>
+              </div>
+            </div>
+              <a href="https://www.jrsportugal.pt/academia-jrs-no-porto-acolhendo-com-palavras/" title="Academia JRS no Porto | Acolhendo com Palavras">
+                <h4 class="title">Academia JRS no Porto | Acolhendo com Palavras</h4>
+              </a>
+            </div>
+            <button class="btn_read"><a  href="" data-smooth-link="">Ver Mais...</a></button>
+            
+              <div class="vc_empty_space" style="height: 32px">
+               <span class="vc_empty_space_inner"></span>
+              </div>
+      </div>
+    <div class="up_foot">
+      <img src="/img/logo-par-300x70.png" alt="" width="300px" height="70px" />
+      <div class="up_foot2">
+        O JRS é membro fundador e coordenador-geral da Plantaforma de Apoio aos
+        Refugiados
+        <div class="up_foot3">
+          <button class="button-learn">Saber mais</button>
+        </div>
+      </div>
+    </div>
+    <div class="logos">
+      <a href="https://twitter.com/intent/tweet?text=Homepage%20https%3A%2F%2Fwww.jrsportugal.pt%2F" target="_blank"><img class="social" src="/img/twitter.png" alt=""></a>
+      <a href="https://www.linkedin.com/company/jrsportugal/" target="_blank"><img class="social" src="/img/linkedin.png" alt=""></a>    
+      <a href="https://www.linkedin.com/company/jrsportugal/" target="_blank"><img class="social" src="/img/plusbutton.png" alt=""></a>    
+    </div>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="part-1">
+          <h1>Siga-nos</h1>
+          <div class="social-midia">
+            <a href="https://www.facebook.com/jrsportugal" target="_blank"><img class="social" src="/img/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/jrsportugal/" target="_blank"><img class="social" src="/img/instagram.png" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCC2rHiL0lJ_UTW-thE0sNVA?view_as=subscriber" target="_blank"><img class="social" src="/img/youtube.png" alt=""></a>
+            <a href="https://www.flickr.com/photos/jrsportugal/" target="_blank"><img class="social" src="/img/flickr1.png" alt=""></a>
+            <a href="https://www.linkedin.com/company/jrsportugal/" target="_blank"><img class="social" src="/img/linkedin.png" alt=""></a>           
+          </div>
+          <h1>Links</h1>
+          <div class="redes"></div>
+          <li>Política de Privacidade</li>
+          <li>SPC - Sistema de Proteção e Cuidado</li>
+        </div>
+        <div class="part-2">
+          <h1>Contactos</h1>
+          <li>Rua Rogério de Moura, Lote 59, 1750-342 Lisboa</li>
+          <li>+351 217 552 790</li>
+          <li>+351 937 541 620</li>
+          <li>jrs@jrsportugal.pt</li>
+        </div>
+        <div class="part-3">
+          <h1>Subscrever Newsletter</h1>
+          <div>
+            <input class="text-input" type="text" required="required">
+            <button class="button-ok">OK</button>
+          </div>
+          <div class="widgets">
+            <a href="https://pontosj.pt/jesuitas/" target="_blank"><img class="logo1" src="/img/logo-companhia-jesus.png" alt=""></a>
+            <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank"><img class="logo2" src="/img/livro_reclamacoes.png" alt=""></a>
+            <a href="https://www.dgert.gov.pt/" target="_blank"><img class="logo3" src="/img/dgert.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <li>Todos os direitos reservados © JRS-Portugal</li>
+          <li>Website by Mordomo Business Consulting</li>
+        </div>
+      </div>
+    </footer>
+    <script src="/JS/Functions.js"></script>
+  </body>
+</html>
+<p>

@@ -1,0 +1,3 @@
+C:/ISEC/Ano 1/Semestre 2/P/Aula 05.02/Ficha1/cmake-build-debug/CMakeFiles/P.dir
+C:/ISEC/Ano 1/Semestre 2/P/Aula 05.02/Ficha1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/ISEC/Ano 1/Semestre 2/P/Aula 05.02/Ficha1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

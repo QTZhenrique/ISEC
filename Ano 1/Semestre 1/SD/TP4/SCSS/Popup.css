@@ -1,0 +1,193 @@
+.popup_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: none;
+}
+
+.popup_menu_donativos {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+  scale: 0;
+  background-color: white;
+  border-radius: 0.25rem;
+  transition: transform, visibility, opacity, 250ms ease;
+  z-index: 1000;
+}
+
+.popup_menu_donativos_open {
+  visibility: visible;
+  width: unset;
+  height: unset;
+  opacity: 1;
+  scale: 1;
+}
+
+.popup_content {
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+  z-index: 2;
+}
+
+.popup_header {
+  position: relative;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #43a7cc;
+}
+
+.donation_type {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  border: solid 1px #27b2dd;
+}
+.donation_type > div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: #27b2dd;
+}
+
+.donation_selected {
+  background-color: #27b2dd;
+  color: white !important;
+}
+
+.donation_ammount {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0.25rem;
+}
+
+.donation_ammount_header {
+  color: gery;
+  opacity: 0.8;
+}
+
+.donation_ammount_content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 0.65rem;
+  font-weight: 500;
+}
+
+.donation_quantity {
+  position: relative;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: solid 1px #27b2dd;
+  cursor: pointer;
+  color: #27b2dd;
+  transition: background-color 250ms ease;
+}
+.donation_quantity_selected {
+  color: white;
+  background-color: rgba(39, 179, 221, 0.7333333333);
+}
+.donation_quantity:hover {
+  color: white;
+  background-color: rgba(39, 179, 221, 0.7333333333);
+}
+
+.donation_form_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0.5rem;
+}
+
+.donation_form_content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0.25rem;
+}
+
+.donation_form_content_header {
+  color: gery;
+  opacity: 0.8;
+  font-size: 0.8rem;
+}
+
+.donation_form_input > input {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  border: solid 1px rgba(39, 179, 221, 0.7333333333);
+  border-radius: 0.25rem;
+  padding: 0 0.75rem;
+}
+
+.check_box_container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 0.5rem;
+}
+
+.check_box_element {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 0.25rem;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.custom_check_box {
+  position: relative;
+  width: 1.3em;
+  height: 1.3em;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  border: 1px solid #858585;
+  border-radius: 100%;
+  color: grey;
+}
+
+.custom_check_box_checked {
+  background-color: rgb(134, 206, 230);
+}
+
+.accept_terms_container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+  color: gery;
+  opacity: 0.8;
+  font-size: 0.8rem;
+  grid-gap: 0.25rem;
+}
+
+.donate_button {
+  position: relative;
+  margin-left: auto;
+  padding: 0.6rem 1.5rem;
+  background-color: #27b3dd;
+  color: white;
+  border-radius: 0.25rem;
+}/*# sourceMappingURL=Popup.css.map */

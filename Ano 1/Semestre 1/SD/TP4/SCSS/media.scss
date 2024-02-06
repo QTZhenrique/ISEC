@@ -1,0 +1,52 @@
+$color_1: #1870ba;
+$color_2: #000000;
+$background-color_1: #f1f1f1;
+$background-color_2: white;
+$background-color_3: rgb(117, 162, 201);
+$border-color_1: #1870ba;
+
+.images_not {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-gap: 20px;
+	padding: 20px;
+}
+.grid-item1 {
+	background-color: $background-color_1;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+.thumb-meta {
+	width: 50%;
+	height: 100%;
+}
+.titulo {
+	text-align: center;
+}
+.image-render {
+	width: 100%;
+	height: auto;
+}
+p {
+	text-align: justify;
+}
+.btn_read {
+	background-color: $background-color_2;
+	color: $color_1;
+	border-radius: 5px;
+	border-color: $border-color_1;
+	height: 5vh;
+	width: 15vh;
+	font-weight: 900;
+	&:hover {
+		background-color: $background-color_3;
+		color: $color_2;
+		border-radius: 5px;
+		border-color: $border-color_1;
+		height: 5vh;
+		width: 15vh;
+		font-weight: 900;
+	}
+}

@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #27190a;
+  font-size: 90%;
+}
+
+/*  nav  menu  */
+nav {
+  background-color: #BD966D;
+  opacity: 0.7;
+}
+
+/* Footer */
+footer {
+  background-color: #BD966D;
+  display: flex;
+}
+footer a {
+  padding: 7px 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu li {
+    padding: 7px 10px;
+    list-style-type: none;
+  }
+
+/* Modify the .menu selector */
+.menu:not(.grid) {
+  display: grid;
+}
+
+.menu > *:last-child
+	{
+		margin-left: auto;
+	}
+
+  .menu li:hover
+  {
+    background-color:#8f6e4b;
+    color: white;
+    cursor: pointer;
+  }
+
+/* Add a class selector for .grid */
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto 1fr; /* 3 auto-sized columns and 1 fractional column */
+  grid-template-rows: auto; /* 1 row */
+}
+
+/* Apply the .grid class to the ul with the .menu class */
+.menu.grid ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu.grid li {
+  padding: 7px 10px;
+}
+
+.menu.grid li:hover {
+  background-color: #8f6e4b;
+  color: white;
+  cursor: pointer;
+}

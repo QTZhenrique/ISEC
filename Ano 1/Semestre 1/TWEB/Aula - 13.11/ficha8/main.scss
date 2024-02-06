@@ -1,0 +1,40 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+h1, h2, h3, h4 {
+}
+
+p {
+
+}
+a {
+
+    color: $link-color;
+
+}
+
+.wrapper {
+
+    header {
+        max-width: $content-width;
+
+        #main-menu {
+            
+        }
+    }
+
+    #content {
+    }
+
+    #sidebar {
+    }
+
+    footer {
+
+    }
+}

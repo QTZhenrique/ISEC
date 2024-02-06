@@ -1,0 +1,196 @@
+@charset "UTF-8";
+.header {
+  top: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 1.5em 0 1.5em 1.5em;
+  background-color: transparent;
+  transition: all 0.3s ease-in;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: -40px;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+}
+
+.header-left {
+  margin-right: auto;
+}
+
+.header-middle {
+  margin: auto;
+  display: flex;
+}
+
+.header-right {
+  margin-left: auto;
+  display: flex;
+}
+
+.logo {
+  width: 40vh;
+  height: 20vh;
+  margin-left: 10px;
+}
+
+.menu-Text {
+  padding-right: 5px;
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.text-header {
+  position: relative;
+  list-style: none;
+  justify-content: space-between;
+  margin: 20px;
+  color: white;
+  display: flex;
+  cursor: pointer;
+}
+.text-header::after {
+  content: "▼";
+  font-size: 10px;
+  margin-left: 3px;
+  line-height: 20px;
+}
+
+.search_icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.drop-sobre {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  visibility: hidden;
+  opacity: 0;
+  background-color: white;
+  color: gray;
+  transition: all 0.15s ease-in-out;
+}
+.drop-sobre > li {
+  text-wrap: nowrap;
+  padding: 0.5rem 1rem;
+}
+
+.drop-area {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  visibility: hidden;
+  opacity: 0;
+  background-color: white;
+  color: gray;
+  transition: all 0.15s ease-in-out;
+}
+.drop-area > li {
+  text-wrap: nowrap;
+  padding: 0.5rem 1rem;
+}
+
+.drop-fazemos {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  visibility: hidden;
+  opacity: 0;
+  background-color: white;
+  color: gray;
+  transition: all 0.15s ease-in-out;
+}
+.drop-fazemos > li {
+  text-wrap: nowrap;
+  padding: 0.5rem 1rem;
+}
+
+.drop-defendemos {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  visibility: hidden;
+  opacity: 0;
+  background-color: white;
+  color: gray;
+  transition: all 0.15s ease-in-out;
+}
+.drop-defendemos > li {
+  text-wrap: nowrap;
+  padding: 0.5rem 1rem;
+}
+
+.drop-apoio {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  visibility: hidden;
+  opacity: 0;
+  background-color: white;
+  color: gray;
+  transition: all 0.15s ease-in-out;
+}
+.drop-apoio > li {
+  text-wrap: nowrap;
+  padding: 0.5rem 1rem;
+}
+
+#text-1:hover > .drop-sobre {
+  visibility: visible;
+  opacity: 1;
+}
+
+#text-2:hover > .drop-area {
+  visibility: visible;
+  opacity: 1;
+}
+
+#text-3:hover > .drop-fazemos {
+  visibility: visible;
+  opacity: 1;
+}
+
+#text-4:hover > .drop-defendemos {
+  visibility: visible;
+  opacity: 1;
+}
+
+#text-5:hover > .drop-apoio {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hamburger {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  width: 25px;
+  margin-top: 100px;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.3s ease-out;
+  margin-right: 250px;
+}
+
+.hamburger.active {
+  margin-right: 60px;
+  transition: all 0.3s ease-out;
+}/*# sourceMappingURL=Header.css.map */
+
+@media only screen and (max-width: 800px) {
+  .text-header {
+    display: none;
+  }
+}/*# sourceMappingURL=IndexStyle.css.map */
