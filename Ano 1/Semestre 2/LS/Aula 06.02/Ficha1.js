@@ -165,3 +165,22 @@ str2 = 'Script';
 console.log(str2);
 fazQualquerCoisa2();
 console.log(str2);
+
+console.log("---F---")
+
+const palavras=['angular','bootstrap','javascript','vue','svelte','react'];
+const palavra=['amber, '];
+
+function imprimeArray(frase)
+{
+    console.log(frase)
+}
+
+imprimeArray(palavras);
+
+function insertBegin(frase,palavra)
+{
+    console.log(frase + palavra);
+}
+
+insertBegin(palavra,palavras);
