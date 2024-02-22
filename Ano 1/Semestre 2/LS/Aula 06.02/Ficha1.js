@@ -166,6 +166,101 @@ console.log(str2);
 fazQualquerCoisa2();
 console.log(str2);
 
+console.log("---Exercicio 5---")
+
+console.log("---A---")
+function com(numero1,numero2)
+{
+    if(numero1 === numero2)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+function sem(numero1,numero2)
+{
+    if(numero1 == numero2)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+console.log(com(1,1));
+console.log(sem(7.8,1.2));
+
+console.log("---B---")
+
+function ParOuImpar(numero1)
+{
+    if(numero1%2 == 0)
+    {
+        console.log("Par");
+    }
+    else
+    {
+        console.log("Impar");
+    }
+}
+
+ParOuImpar(4);
+
+
+console.log("---C---")
+
+function obtemQuadrado(numero)
+{
+    return numero *= numero;
+}
+
+console.log(obtemQuadrado(2)) 
+console.log(obtemQuadrado(9)) 
+console.log(obtemQuadrado(10))
+
+console.log("---D---")
+
+let altura = 0;
+let base = 0;
+
+function area(area, base=area)
+{
+    return a*b;
+}
+
+console.log(area(5,10)) // 50
+console.log(area(10,20)) // 200
+console.log(area(5)) // 25
+
+
+console.log("---E---")
+
+let vogal = 0;
+
+function ContaVogais(frase)
+{
+    frase.toLocaleLowerCase;
+
+    for(i=0;i<frase.length;i++)
+    {
+        if(frase[i] == 'a' || frase[i] == 'e' || frase[i] == 'i' || frase[i] == 'o' || frase[i] == 'u')
+        {
+            vogal++;
+        }
+    }
+
+    return vogal;
+}
+
+console.log(ContaVogais("Linguagens Scripts"));
+
+
 console.log("---F---")
 
 const palavras=['angular','bootstrap','javascript','vue','svelte','react'];
