@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fdbf892a-0056-468b-8087-7cf101102489" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_01/LS_Ficha01_JS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/LS_Ficha02_JS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/estilos/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/angular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/backbone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/ember.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/javascript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/ls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/react.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/svelte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/images/vue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LS/FichaPratica_02/FichaPratica_02/ficha2_inicio/js/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/.cmake/api/v1/reply/cache-v2-736db17dfa1be0f5cb29.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c5e6e96b0fac4411f7d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-19T10-02-46-0730.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-0c1cf764ad21e5ba37ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/Aula_19_02.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/Aula_19_02.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/Aula_19_02.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/Aula_19_02.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula 19.02/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG/.idea/materiais_PROG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG/2A-Matrizes.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG/2B-strings.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG/P2324_Ponteiros.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG/galo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG_2023_2024_22-02-2024/P2324_Aula4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG_2023_2024_22-02-2024/P2324_Estruturas.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG_2023_2024_22-02-2024/matrizes.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../materiais_PROG_2023_2024_22-02-2024/strings.c" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3.4" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2dDddxneHEKlaB7pmuOaoG1CAas" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdbf892a-0056-468b-8087-7cf101102489" name="Changes" comment="" />
+      <created>1709546673690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709546673690</updated>
+      <workItem from="1709546675151" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
