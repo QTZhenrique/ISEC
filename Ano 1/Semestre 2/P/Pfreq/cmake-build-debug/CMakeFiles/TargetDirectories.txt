@@ -1,0 +1,3 @@
+C:/Users/henri/OneDrive/Documentos/GitHub/ISEC/Ano 1/Semestre 2/P/Pfreq/cmake-build-debug/CMakeFiles/Pfreq.dir
+C:/Users/henri/OneDrive/Documentos/GitHub/ISEC/Ano 1/Semestre 2/P/Pfreq/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/henri/OneDrive/Documentos/GitHub/ISEC/Ano 1/Semestre 2/P/Pfreq/cmake-build-debug/CMakeFiles/rebuild_cache.dir

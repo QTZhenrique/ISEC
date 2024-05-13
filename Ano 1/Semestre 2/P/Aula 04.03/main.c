@@ -1,28 +1,20 @@
 #include <stdio.h>
 #include "ponto.h"
 #include "retangulo.h"
+#include "tabela.h"
 
 int main(){
 
-    ret r1 = {{2,3}, 10,20}, r2;
-    ponto2D  a = {5,5};
-    ponto2D p1 = {3, 5}, p2;
+    ret tab[10] = {{{1,1},10,5}, {{2,3},2,6}, {{-1,4},7,2}};
+    int total = 3;
 
-    printRet(r1);
+    addRet(tab, &total);
+    printV(tab, total);
 
-    initRet(&r2);
-    printRet(r2);
+    duplicaAltLarg(tab, total);
+    printV(tab, total);
 
-    printf("Area &d\n", areaR(r1));
-
-    printPonto(p1);
-
-    initPonto(&p2);
-    printPonto(p2);
-
-    movePonto(&p1, -4, -1);
-    printPonto(p1);
-    printf("Quadrante deste ponto: %d\n", quadrante(p1));
+    printf("Existem %d retangulos no quadrante 1\n", quadrante1(tab, total));
 
 
     return 0;

@@ -67,6 +67,12 @@ build CMakeFiles/Aula_04_03.dir/retangulo.c.obj: C_COMPILER__Aula_04_03_unscanne
   OBJECT_DIR = CMakeFiles\Aula_04_03.dir
   OBJECT_FILE_DIR = CMakeFiles\Aula_04_03.dir
 
+build CMakeFiles/Aula_04_03.dir/tabela.c.obj: C_COMPILER__Aula_04_03_unscanned_Debug C$:/Users/henri/OneDrive/Documentos/GitHub/ISEC/Ano$ 1/Semestre$ 2/P/Aula$ 04.03/tabela.c || cmake_object_order_depends_target_Aula_04_03
+  DEP_FILE = CMakeFiles\Aula_04_03.dir\tabela.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Aula_04_03.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aula_04_03.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Aula_04_03
@@ -75,7 +81,7 @@ build CMakeFiles/Aula_04_03.dir/retangulo.c.obj: C_COMPILER__Aula_04_03_unscanne
 #############################################
 # Link the executable Aula_04_03.exe
 
-build Aula_04_03.exe: C_EXECUTABLE_LINKER__Aula_04_03_Debug CMakeFiles/Aula_04_03.dir/main.c.obj CMakeFiles/Aula_04_03.dir/ponto.c.obj CMakeFiles/Aula_04_03.dir/retangulo.c.obj
+build Aula_04_03.exe: C_EXECUTABLE_LINKER__Aula_04_03_Debug CMakeFiles/Aula_04_03.dir/main.c.obj CMakeFiles/Aula_04_03.dir/ponto.c.obj CMakeFiles/Aula_04_03.dir/retangulo.c.obj CMakeFiles/Aula_04_03.dir/tabela.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Aula_04_03.dir

@@ -6,4 +6,5 @@ set(CMAKE_C_STANDARD 99)
 add_executable(Aula_04_03 main.c
 ponto.c
         ponto.c
-        retangulo.c)
+        retangulo.c
+        tabela.c)

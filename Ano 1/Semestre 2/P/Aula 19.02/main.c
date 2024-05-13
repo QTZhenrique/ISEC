@@ -145,6 +145,7 @@ int main(){
     int tab4[10] = {12, 7, 9, 4, 1, 4, 41, 7, 21, 14};
     int tab5[3] = {1,2,4};
     int tab6[3] = {1,2,6};
+    int tab7[10] = {1,3,7,5,2,10,9,7,7,1};
 
     int np=0, ni=0, m=0, pos=0, soma=0;
     int prim=0, seg=0;
@@ -156,7 +157,7 @@ int main(){
 
     printf("Depois: X=%.1f\tY=%.1f\tZ=%.1f\n", x, y, z);
 
-    conta(tab1,10,&np,&ni,&m,&pos);
+    conta(tab7,10,&np,&ni,&m,&pos);
 
     printf("Pares: %d\tImpares: %d\t, Maior: %d\t, Posicao: %d\n", np, ni, m, pos);
 

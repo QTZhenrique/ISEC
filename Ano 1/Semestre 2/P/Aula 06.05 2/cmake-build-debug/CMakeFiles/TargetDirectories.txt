@@ -1,0 +1,3 @@
+C:/Users/henri/OneDrive/Documentos/GitHub/ISEC/Ano 1/Semestre 2/P/Aula 06.05 2/cmake-build-debug/CMakeFiles/Aula_06_05_2.dir
+C:/Users/henri/OneDrive/Documentos/GitHub/ISEC/Ano 1/Semestre 2/P/Aula 06.05 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/henri/OneDrive/Documentos/GitHub/ISEC/Ano 1/Semestre 2/P/Aula 06.05 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

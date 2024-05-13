@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CodigoAula7",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CodigoAula7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CodigoAula7-Debug-e75afea76036e36ce587.json",
+					"name" : "CodigoAula7",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/henri/OneDrive/Documentos/GitHub/ISEC/Ano 1/Semestre 2/P/Aula 18.03/CodigoAula7/cmake-build-debug",
+		"source" : "C:/Users/henri/OneDrive/Documentos/GitHub/ISEC/Ano 1/Semestre 2/P/Aula 18.03/CodigoAula7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,13 +1,19 @@
 "use strict";
 
-var panelControl = document.getElementById('panel-control');
-var panelGame = document.getElementById('game');
-var btLevel = document.getElementById('btLevel');
-var btPlay = document.getElementById('btPlay');
-var message = document.getElementById('message');
+const panelControl = document.getElementById('panel-control');
+const panelGame = document.getElementById('game');
+const btLevel = document.getElementById('btLevel');
+const btPlay = document.getElementById('btPlay');
+const message = document.getElementById('message');
 const listItens = document.querySelectorAll('.list-item');
-var cartas = document.querySelectorAll(".card");
+const cartas = document.querySelectorAll(".card");
+let flippedcards=[];
+let totalFlipedCards = 0;
 
+let TIMEOUTGAME = 20;
+let timer;
+let timerID;
+const labelGameTime = document.getElementById('gameTime');
 
 btLevel.addEventListener('change' , SelectLevel);
 reset();
@@ -26,6 +32,11 @@ function SelectLevel() //Pode incluir na função Reset
 
 function StartGame()
 {
+    timer = TIMEOUTGAME;
+    labelGameTime.textContent = "20s";
+    timerID = setInterval(updateGameTime,1000);
+    flippedcards=[];
+    totalFlipedCards = 0;
     btPlay.textContent = "Terminar Jogo";
     btLevel.disabled = true;
     message.classList.add('hide');
@@ -69,7 +80,9 @@ function StopGame()
 {
     btPlay.textContent = "Iniciar Jogo";
     btLevel.disabled = false;
+    modalGameOver.showModal();
     HideCards();
+    clearInterval(timerID);
     reset();
 }
 
@@ -81,6 +94,7 @@ function reset()
     btPlay.disabled = 'false';
     btLevel.value = '0'
     listItens.forEach(function(elemento){elemento.classList.remove('gameStarted')});
+    labelGameTime.removeAttribute('style');
 }
 
 
@@ -125,7 +139,63 @@ const shuffleArray = array =>
 
 function FlipCard()
 {
-    this.classList.add("flipped");    
+    this.classList.add("flipped");
+
+    flippedcards.push(this);
+}
+
+function checkPair()
+{
+    let [card1,card2] = flippedcards;
+
+    const isMatch = (card1.dataset.logo == card2.dataset.logo)
+
+    if(isMatch)
+    {
+        setTimeout(()=>{
+            card1.classList.add("inactive");
+            card2.classList.add("inactive");
+            card1.querySelector("card-front".classList.add(grayscale));
+            card2.querySelector("card-front".classList.add(grayscale));
+
+            totalFlipedCards += 2;
+            if(GameOver())
+            {
+                StopGame();
+            }
+
+        },500);
+    }
+    else
+    {
+        setTimeout(()=>{
+            card1.classList.remove("flipped");
+            card2.classList.remove("flipped");
+            card1.addEventListener("click",FlipCard,{once:true});
+            card2.addEventListener("click",FlipCard,{once:true});
+        },500);
+    }
+}
+
+function GameOver()
+{
+    return(totalFlipedCards===cartas.length);
+}
+
+function updateGameTime()
+{
+    timer--;
+    labelGameTime.textContent = timer + "s";
+
+    if(timer === 0)
+    {
+        StopGame();
+    }
+
+    if(timer< 10)
+    {
+        labelGameTime.style.backgroundColor = "red";
+    }
 }
 
 

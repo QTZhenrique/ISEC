@@ -1,0 +1,14 @@
+# ninja log v5
+5	152	7334261511586911	CMakeFiles/Pfreq.dir/main.c.obj	ca12215308dede8a
+15	184	7334260438354721	CMakeFiles/Pfreq.dir/retangulo.c.obj	ce2cbe7d06c46681
+154	327	7334261513256380	Pfreq.exe	ddcbd58a48515bd
+5	151	7334266516210855	CMakeFiles/Pfreq.dir/main.c.obj	ca12215308dede8a
+13	176	7334266516468840	CMakeFiles/Pfreq.dir/retangulo.c.obj	ce2cbe7d06c46681
+177	343	7334266518065437	Pfreq.exe	ddcbd58a48515bd
+4	140	7334266729341755	CMakeFiles/Pfreq.dir/main.c.obj	ca12215308dede8a
+143	326	7334266731128692	Pfreq.exe	ddcbd58a48515bd
+3	352	7334471927458780	CMakeFiles/Pfreq.dir/main.c.obj	ca12215308dede8a
+9	368	7334471927641980	CMakeFiles/Pfreq.dir/retangulo.c.obj	ce2cbe7d06c46681
+368	701	7334471930945790	Pfreq.exe	ddcbd58a48515bd
+2	78	7334472171536632	CMakeFiles/Pfreq.dir/main.c.obj	ca12215308dede8a
+79	175	7334472172453038	Pfreq.exe	ddcbd58a48515bd
